@@ -3557,6 +3557,8 @@ let endpoints: list<Endpoint> =
 
 In this example, we're using the ASP.NET [Rate limiting](https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit) middleware for the path `/rate-limit`, and not using it for `/no-rate-limit`. If you'd like to test it, check the sample at the official repository. There's a `README.md` file with instructions on how to run it locally.
 
+Note that for those extensions to work properly, you'll probably need to make additional changes to the server. Please check the official extension documentation page to know more about this.
+
 If there are other extensions you'd like to use, feel free to submit your patches through GitHub PRs, or by creating new issues to let us know.
 
 ### TokenRouter
